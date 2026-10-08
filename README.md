@@ -1,5 +1,9 @@
 # Deploy Django Application on AWS using ECS and ECR
 
+This is a sample learning project provided by https://devcloudninjas.github.io/DevOps-Projects/ as teaching tool for new DevOps specialists. 
+The rest of this file and most of the code was copied directly from the origin; on my side, I followed the instructions and succeeded in deploying the app. MY_NOTES.md contains the remarks I made while following the tutorial.
+
+
 ![AWS](https://imgur.com/wLMcRHS.jpg)
 
 **This article will deploy a Django-based application onto AWS using ECS (Elastic Container Service) and ECR (Elastic Container Registry). We start by creating the docker image of our application and pushing it to ECR. After that, we create the instance and deploy the application on AWS using ECS. Next, we ensure the application is running correctly using Django’s built-in web server.**
